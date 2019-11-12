@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700,900&display=swap%27');
+.home {
+  font-family: 'Lato', sans-serif;
+}
+.row-full{
+width: 100vw;
+position: relative;
+margin-left: -50vw;
+height: 100px;
+margin-top: 100px;
+left: 50%;
+padding-bottom: 20vh;
+display: flex;
+min-height: 40vh;
+flex-direction: column;
+}
