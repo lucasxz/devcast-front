@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Navbar extends React.Component {
     render() {
         return (
-            <nav class="navbar is-transparent is-dark container" role="navigation" aria-label="main navigation" style={{backgroundColor: null, backgroundImage: null}}>
+            <nav class="navbar is-transparent is-dark container" role="navigation" aria-label="main navigation" style={{backgroundColor: 'transparent', backgroundImage:  null}}>
                 <div class="navbar-brand">
                     <a class="navbar-item" href="">
                         devCast
