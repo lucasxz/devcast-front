@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Profile() {
+
+class home extends React.Component {
+  render(){
     return (
-       <p>Profile</p> 
+       <p>home</p>
     )
-};
+  }
+}
+
+export default home

@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Home() {
+
+class profile extends Component {
+  render() {
     return (
-       <p>home</p> 
+       <p>Profile</p>
     )
-};
+  }
+}
+
+
+export default profile
