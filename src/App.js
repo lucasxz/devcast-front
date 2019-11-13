@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 class App extends React.Component {
   render(){
       return (
-        <div class="container">
+        <div class="container all">
           <Navbar/>
           <switch>
             <Route exact path="/" component={Home} />
